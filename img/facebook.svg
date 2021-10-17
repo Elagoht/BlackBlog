@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 112.196 112.196"
+   xml:space="preserve"
+   sodipodi:docname="facebook.svg"
+   style="enable-background:new 0 0 112.196 112.196;"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   id="metadata9"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs7" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1864"
+   inkscape:window-height="1024"
+   id="namedview5"
+   showgrid="false"
+   inkscape:zoom="5.6568542"
+   inkscape:cx="43.879064"
+   inkscape:cy="59.76756"
+   inkscape:window-x="56"
+   inkscape:window-y="30"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_1" />
+	<path
+   style="fill:#ffffff"
+   d="M 79.112868,55.953139 H 63.77106 V 112.15841 H 40.526919 V 55.953139 H 29.471927 V 36.20037 H 40.526919 V 23.418085 c 0,-9.140713 4.341991,-23.45411515 23.451048,-23.45411515 L 81.195736,0.03600154 V 19.20943 H 68.703122 c -2.04915,0 -4.930529,1.023809 -4.930529,5.384192 v 11.625137 h 17.371034 z"
+   id="path2"
+   inkscape:connector-curvature="0" />
+</svg>

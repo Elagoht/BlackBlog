@@ -1,0 +1,43 @@
+{
+    "short_name":"Lorem Ipsum",
+    "name":"Lorem ipsum: dolor sit amet.",
+    "icons":[
+        {
+            "src":"/favicon.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }
+    ],
+    "start_url":"/",
+    "background_color":"#dbdad6",
+    "display":"standalone",
+    "scope":"/",
+    "theme_color": "#202020",
+    "shortcuts":[
+        {
+            "name":"Lorem ipsum dolor.",
+            "short_name":"Lorem",
+            "description":"Lorem ipsum dolor sit amet.",
+            "url":"/index.html",
+            "icons":[
+                {
+                    "src":"/favicon.png",
+                    "sizes":"512x512"
+                }
+            ]
+        },
+        {
+            "name":"Lorem ipsum dolor.",
+            "short_name":"Lorem",
+            "description":"Lorem ipsum dolor sit amet.",
+            "url":"/index.html",
+            "icons":[
+                {
+                    "src":"/favicon.png",
+                    "sizes":"512x512"
+                }
+            ]
+        }
+    ],
+    "description":"Lorem ipsum dolor."
+}

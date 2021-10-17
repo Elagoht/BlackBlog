@@ -1,0 +1,167 @@
+* {
+	color:#ddd;
+}
+:root {
+	--ascend:#af907d;
+	--descend:#beab9e;
+}
+body {
+	background:#2a2a2a;
+}
+article button {
+	background:linear-gradient(to top, #555, #444, #555);
+	border-color:#222;
+}
+header {
+	background:#222;
+}
+#headnav a:focus {
+	border-bottom-color:#ccc;
+}
+#headnav a:hover {
+	border-bottom-color:#aaa;
+}
+#searchcon form > * {
+	border:none;
+	background:#444;
+}
+#searchcon form > *:focus {
+	background:#4a4a4a;
+}
+#searchcon form > *:active {
+	background:#555;
+}
+#articlecat a {
+	color:#555;
+}
+#refs a {
+	font-size:10pt;
+	text-decoration:none;
+}
+.tag {
+	background:#444;
+}
+.tag:hover {
+	background:#555;
+}
+.comment {
+	background:#444;
+}
+.cominfo {
+	border-bottom:1px solid #aaa;
+}
+.comdate {
+	color:#888;
+}
+input, select, textarea {
+	background:#444;
+	color:#ccc;
+	border-bottom:1px solid #aaa;
+}
+.commentscon input:hover, select:hover, textarea:hover {
+	background:#555;
+}
+.commentscon input:active, select:active, textarea:active, .commentscon input:focus, select:focus, textarea:focus {
+	background:#5a5a5a;
+}
+@media all and (max-width:1024px) {
+	#headnav {
+		background:#333;
+	}
+	#headnav::-webkit-scrollbar {
+		background:#222;
+	}
+	#headnav::-webkit-scrollbar-thumb {
+		background:#333;
+	}
+	#headnav a {
+		border-bottom:1px solid #444 !important;
+		color:white;
+	}
+	#headnav a:hover, #headnav a:focus {
+		background:#8888;
+	}
+	#searchcon {
+		background:#262626;
+	}
+	#searchbox {
+		background:#ccc !important;
+		color:black !important;
+	}
+	#searchbutton {
+		background:#ccc !important;
+	}
+	#inthispage {
+		background:#555 !important;
+	}
+	#inthispage:hover {
+		background:#666 !important;
+	}
+}
+.blog {
+	background:#222 !important;
+}
+.blog:hover {
+	background:#2f2f2f !important;
+}
+#previous, #next, #galname {
+	filter:none;
+	color:white;
+}
+#previous:hover, #next:hover {
+	background-color:#333;
+}
+#gallerycontroller {
+	background:#222;
+}
+#itemlist {
+    background:#444;
+}
+.listitem {
+	background:#555;
+}
+.listitem:hover {
+	background:#666;
+}
+#ftp > div > div:nth-of-type(even) {
+	background:#555 !important;
+}
+#ftp > div > div:nth-of-type(odd) {
+	background:#444 !important;
+}
+#ftpheader .head:nth-child(odd) , #ftpheader .head:nth-child(even) {
+	background:#222 !important;
+}
+.pagenum {
+	background:#222;
+	color:white;
+}
+.pagenum.disabled {
+	background:#4a4a4a;
+	color:gray;
+}
+.pagenum.disabled:hover {
+	background:#444;
+}
+.sugtitle {
+	background:#222;
+}
+#suggest {
+	background:#2a2a2a;
+}
+#category div {
+	background:#333;
+	border-color:#444;
+}
+#category div:hover {
+	background:#444;
+}
+#gamedesc {
+	background-color:#444;
+}
+#refs {
+	border-top:1px solid white;
+}
+td, th {
+	color:black;
+}

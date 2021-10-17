@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lorem - Ipsum</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Lorem Ipsum">
+		<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+		<meta id="androidtabcolor" name="theme-color" content="#202020"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta id="iostabcolor" name="apple-mobile-web-app-status-bar-style" content="default">
+		<meta id="wphonetabcolor" name="msapplication-navbutton-color" content="#202020">
+        <link rel="stylesheet" type="text/css" href="/design.css">
+        <link id="darkTheme" rel="stylesheet" type="text/css" href="">
+        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="manifest" href="/manifest.json">
+        <style id="fontfam"></style>
+        <style id="fontalign"></style>
+        <style id="fontsize"></style>
+    </head>
+    <body>
+    <div id="closediv" onclick="sidemenu()"></div>
+    <header>
+        <div id="logocon">
+            <div id="burger" onclick="sidemenu()"></div>
+            <a href="/"><div id="logo"></div></a>
+            <a href="/"><div id="sitenamecon">
+                <div id="sitename">Lorem Ipsum</div>
+                <div id="slogan">Dolor Sit Amet</div>
+            </div></a>
+        </div>
+        <div id="headnav">
+            <nav>
+                <a href="#">Lorem</a>
+                <a href="#">Ipsum</a>
+                <a href="#">Dolor</a>
+                <a href="#">Sit</a>
+                <a href="#">Amet</a>
+                <a href="#">Consectetur</a>
+                <a href="#">Adipisicing</a>
+            </nav>
+            <div id="searchcon">
+                <form action="/search">
+                    <input id="searchbox" type="search" placeholder="Lorem Ipsum" required name="search"/>
+                    <input id="searchbutton" type="submit" value="&#128270;"/>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div id="zoomdiv"><img src="/img/none" id="zoom"></div>
+    <section>	
+        <div id="settings">
+            <div id="settingsslide">
+                <button class="share" onclick="isDarkTheme(0)" style="display:none;" id="lighttheme"></button>
+                <button class="share" onclick="isDarkTheme(1)" id="darktheme"></button>
+                <button class="share" onclick="sans()" style="display:none;" id="sansfont"></button>
+                <button class="share" onclick="serif()" id="seriffont"></button>
+                <button class="share" onclick="left()" id="leftalign"></button>
+                <button class="share" onclick="justify()" style="display:none;" id="justifyalign"></button>
+                <button class="share" onclick="smaller()" id="shrink"></button>
+                <button class="share" onclick="resetSize()" id="resetsize"></button>
+                <button class="share" onclick="bigger()" id="grow"></button>
+            </div>
+        </div>
+        <div id="articlecon">
+            <div id="articlecat">
+                <a href="#">All Lorems</a> > <a href="#">Ipsum</a> > <a href="#">Dolor</a>
+            </div>
+            <div id="writerdate">
+                <div id="writerinfo">
+                    <div id="writerpp" style="background-image:url('img/people/furkanbaytekin.png');"></div>
+                    <div id="writername">$writerName</div>
+                </div>
+                <div id="articleinfo">
+                    <div id="articlereadtime"><span id="readtime">1 hour</span> &#128343;</div>
+                    <div id="articlereadcount"><span>137.462</span> &#x1F453;</div>
+                    <div id="articledate"><span>16/10/2021</span> &#x1F4C5;</div>
+                </div>
+            </div>
+            <div id="articletitle">$articleTitle</div>
+            <article>
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <p>Lorem, <a href="#">ipsum</a> dolor sit amet consectetur adipisicing elit. Quaerat tempore nobis error, libero corporis dignissimos. Qui, obcaecati iusto totam officiis dignissimos, harum laborum architecto atque recusandae quia aliquam aliquid incidunt, quaerat veritatis eligendi. Impedit culpa accusamus corporis placeat, reiciendis corrupti? Nostrum, repellat. Delectus veniam odio aperiam tempore repellat, eos voluptas.</p>
+                <p>Lorem, <span class="hl">ipsum dolor sit</span> amet consectetur adipisicing elit. Quidem fuga at doloribus natus quisquam, a nobis porro aspernatur quis mollitia totam ratione deserunt. Amet deserunt vel labore praesentium distinctio tempora natus facilis voluptatibus molestiae officia fugiat iure illum corrupti recusandae alias ratione, nemo corporis accusantium! Consequatur.</p>
+                <img src="favicon.png" alt="Lorem Ipsum">
+                <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+                <div class="window">
+                    <div class="locate">~/lorem/ipsum/dolor/sit.amet</div>
+                </div>
+                <div class="window">
+                    <div class="term">sudo lorem ipsum</div>
+                    <div class="output">Lorem ipsum dolor sit amet.</div>
+                    <div class="term">sudo lorem ipsum</div>
+                    <div class="output">Already lorem ipsum dolor sit amet.</div>
+                </div>
+                <h1>Lorem Ipsum Dolor Sit Amet!</h1>
+                <div id="sharecon">
+                    <button class="share" id="facebook"></button>
+                    <button class="share" id="twitter"></button>
+                    <button class="share" id="discord"></button>
+                    <button class="share" id="whatsapp"></button>
+                    <button class="share" id="telegram"></button>
+                    <button class="share" id="mail"></button>
+                    <button class="share" id="link"></button>
+                </div>
+            </article>
+            <div class='commentscon'>
+                <script>if (window.history.replaceState) {window.history.replaceState(null,null,window.location.href);}</script>
+                <div class='commentstitle'>Lorem Ipsum</div>
+                <form method='Post' class='writeComment'>
+                    <label for='name'>Lorem, Ipsum</label>
+                    <input placeholder='Lorem Ipsum' type='text' name='name' id='name'>
+                    <p style="font-size:8pt;">Lorem Ipsum dolor.</p>
+                    <label for='email'>E-Lorem</label>
+                    <input required type='email' name='email' id='email'>
+                    <p style='font-size:8pt;'>Lorem Ipsum dolor sit amet.</p>
+                    <label for='rate'>Lorem ipsum</label>
+                    <select required name='rate' id='rate'>
+                        <option value='5'>5</option>
+                        <option value='4'>4</option>
+                        <option value='3'>3</option>
+                        <option value='2'>2</option>
+                        <option value='1'>1</option>
+                    </select>
+                    <label for='comment'>Lorem</label>
+                    <textarea required maxlength='400' Cols='25'Rows='5' placeholder='Lorem...' type='text' id='comment' name='comment'></textarea>
+                    <input type='submit' value='Lorem Ipsum'>
+                </form>
+                <div class='commentstitle'>Lorems</div>
+                <div class="comment">
+                    <div class="cominfo">
+                        <div class="comnamedate">
+                            <div class="comname">Lorem.</div>
+                            <div class="comdate">16/10/2021</div>
+                        </div>
+                        <div class="comrate">
+                            <div class="comstar lit"></div>
+                            <div class="comstar lit"></div>
+                            <div class="comstar lit"></div>
+                            <div class="comstar lit"></div>
+                            <div class="comstar"></div>
+                        </div>
+                    </div>
+                    <div class="comtext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, inventore praesentium? Animi accusamus sapiente nam id recusandae alias delectus quisquam dolor praesentium, minima voluptate tempore inventore blanditiis labore consequuntur numquam perspiciatis optio?
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="cominfo">
+                        <div class="comnamedate">
+                            <div class="comname">Lorem ipsum.</div>
+                            <div class="comdate">17/10/2021</div>
+                        </div>
+                        <div class="comrate">
+                            <div class="comstar lit"></div>
+                            <div class="comstar lit"></div>
+                            <div class="comstar lit"></div>
+                            <div class="comstar"></div>
+                            <div class="comstar"></div>
+                        </div>
+                    </div>
+                    <div class="comtext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat error maiores provident placeat dolore molestiae, voluptatibus cum. Sapiente, rerum, voluptatum veritatis magni quia, eligendi quas est repellat praesentium dolores aut. Praesentium vitae ea aspernatur totam placeat?
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside>
+            <div id="navconslide">
+                <div class="navcon">
+                    <div class="label">Popular Lorems</div>
+                    <nav>
+                        <a href='#'>
+                            <div class="asideicon" style="background-image:url('/favicon.png')"></div>
+                            <div class="asidename">Lorem ipsum dolor sit amet consectetur.</div>
+                        </a>
+                        <a href='#'>
+                            <div class="asideicon" style="background-image:url('/favicon.png')"></div>
+                            <div class="asidename">Lorem ipsum dolor sit amet consectetur.</div>
+                        </a>
+                        <a href='#'>
+                            <div class="asideicon" style="background-image:url('/favicon.png')"></div>
+                            <div class="asidename">Lorem ipsum dolor sit amet.</div>
+                        </a>
+                        <a href='#'>
+                            <div class="asideicon" style="background-image:url('/favicon.png')"></div>
+                            <div class="asidename">Lorem ipsum dolor sit amet, consectetur.</div>
+                        </a>
+                    </nav>
+                </div>
+                <div class="navcon">
+                    <div class="label">Lastest Ipsums</div>
+                    <nav>
+                        <a href='#'>
+                            <div class="asideicon" style="background-image:url('/favicon.png')"></div>
+                            <div class="asidename">Lorem ipsum dolor sit.</div>
+                        </a>
+                        <a href='#'>
+                            <div class="asideicon" style="background-image:url('/favicon.png')"></div>
+                            <div class="asidename">Lorem ipsum dolor sit amet.</div>
+                        </a>
+                        <a href='#'>
+                            <div class="asideicon" style="background-image:url('/favicon.png')"></div>
+                            <div class="asidename">Lorem ipsum dolor sit amet consectetur.</div>
+                        </a>
+                        <a href='#'>
+                            <div class="asideicon" style="background-image:url('/favicon.png')"></div>
+                            <div class="asidename">Lorem, ipsum dolor.</div>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </aside>
+    </section>
+		<footer>
+			<div id="footcon">
+				<div id="copyright">Lorem ipsum dolor. - All rights reversed. <sup><span style="display:inline-block;transform: rotate(180deg);">&copy;</span></sup> 2021</div>
+				<div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus nisi quam quod laboriosam nostrum vitae. Quo pariatur ex dolorem! Perspiciatis exercitationem non ullam voluptatum error modi inventore. Accusamus quasi soluta hic quidem? Soluta officia, eaque minus in cum asperiores. Pariatur et, aperiam fuga sit, praesentium sint dolorum voluptates optio odio obcaecati beatae minima dolores.</div>
+				<div>Lorem ipsum dolor sit amet on socail media!</div>
+				<div id="footlinks">
+					<a href=""><div class="social" id="instagram" style="background-image:url('/img/instagram.svg')"></div></a>
+					<a href=""><div class="social" id="facebook" style="background-image:url('/img/facebook.svg')"></div></a>
+					<a href=""><div class="social" id="twitter" style="background-image:url('/img/twitter.svg')"></div></a>
+					<a href=""><div class="social" id="discord" style="background-image:url('/img/discord.svg')"></div></a>
+					<a href=""><div class="social" id="reddit" style="background-image:url('/img/reddit.svg')"></div></a>
+					<a href=""><div class="social" id="github" style="background-image:url('/img/github.svg')"></div></a>
+					<a href=""><div class="social" id="tumblr" style="background-image:url('/img/tumblr.svg')"></div></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+<script type="text/javascript" src="/themeFontSettings.js"></script>
+<script type="text/javascript" src="/interact.js"></script>
+<script type="text/javascript" src="/readtime.js"></script>
+<script type="text/javascript" src="/zoom.js"></script>
